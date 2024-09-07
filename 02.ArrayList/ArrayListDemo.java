@@ -9,36 +9,37 @@ public static void main(String[] args) {
 	   //3.Data Structure:Growable array.
 	   
         // ArrayListDemo a=new ArrayListDemo();
-        //Dynamic Binding
-        List l=new ArrayList(); 
 		
-		l.add(10);//boolean
-		l.add(20);
-		l.add(30);
-		l.add(40);
-		l.add("Ashok");
-		l.add(true);//boolean-->Boolean
-		l.add(5.2f);//float -->Float
+        //Dynamic Binding
+        // List l=new ArrayList(); 
+		
+		// l.add(10);//boolean
+		// l.add(20);
+		// l.add(30);
+		// l.add(40);
+		// l.add("Ashok");
+		// l.add(true);//boolean-->Boolean
+		// l.add(5.2f);//float -->Float
 
 		// ArrayList l=new ArrayList();
 		// l.add(a);
 		
-		l.add(1,15);
-		l.add("Ashok");
-		System.out.println("l1--> "+l);
-		System.out.println(l.size());
-		System.out.println(l.contains(10));
-		System.out.println(l.hashCode());
-		System.out.println(l.get(2));//index
-		System.out.println(l.indexOf("Ashok"));//object//return index or -1
-		System.out.println(l.lastIndexOf("Ashok"));
-		System.out.println(l.remove(0));//index or object
-		System.out.println(l);
-		System.out.println(l.remove("Ashok"));//object return true or false
-		System.out.println(l);
-		l.clear();
-		System.out.println(l);
-		System.out.println(l.isEmpty());
+		// l.add(1,15);
+		// l.add("Ashok");
+		// System.out.println("l1--> "+l);
+		// System.out.println(l.size());
+		// System.out.println(l.contains(10));
+		// System.out.println(l.hashCode());
+		// System.out.println(l.get(2));//index
+		// System.out.println(l.indexOf("Ashok"));//object//return index or -1
+		// System.out.println(l.lastIndexOf("Ashok"));
+		// System.out.println(l.remove(0));//index or object
+		// System.out.println(l);
+		// System.out.println(l.remove("Ashok"));//object return true or false
+		// System.out.println(l);
+		// l.clear();
+		// System.out.println(l);
+		// System.out.println(l.isEmpty());
 		
 		
 		
@@ -84,6 +85,9 @@ public static void main(String[] args) {
 		// System.out.println("l4--> "+l4);
 		// l4=l3.subList(3, 3);//IndexOutOfBoundsException
 		// System.out.println("l4--> "+l4);
+
+		
+		
 
 	}
 

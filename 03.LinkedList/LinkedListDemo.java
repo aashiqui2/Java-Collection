@@ -10,8 +10,8 @@ public class LinkedListDemo {
         // ll.add(40);
         // ll.add(50);
         // ll.add("Ashok");
-        // System.out.println(ll.add(60));
         // ll.add("Ashok");
+        // System.out.println(ll.add(60));
         // System.out.println("ll--> "+ll);
         // System.out.println(ll.size());
         // System.out.println(ll.contains(20));
@@ -22,9 +22,10 @@ public class LinkedListDemo {
 		// System.out.println(ll.lastIndexOf("Ashok"));
 		// System.out.println(ll.remove(0));//index or object//pass index must
 		// System.out.println(ll);
-		// System.out.println(ll.remove("Ashok"));//object return true or false
+		// System.out.println(ll.remove("Ashokk"));//object return true or false
 		// System.out.println(ll);
-		// ll.clear();
+		// // System.out.println(ll.clear());//error return nothing
+        // // ll.clear();
 		// System.out.println(ll);
 		// System.out.println(ll.isEmpty());
 
@@ -64,7 +65,7 @@ public class LinkedListDemo {
 		// System.out.println("l3--> "+l3);
 		// System.out.println(l3.set(1,"ABCD"));//replaces element will be print
 		// System.out.println("l3--> "+l3);
-		// System.out.println(l3.set(50, l3));//IndexOutOfBoundsException
+		// //System.out.println(l3.set(50, l3));//IndexOutOfBoundsException
 
 		// List l4=l3.subList(3, 5); //like substring Method(n-1)
 		// System.out.println("l4--> "+l4);
@@ -87,10 +88,10 @@ public class LinkedListDemo {
         l5.addLast(false);
         System.out.println(l5);
 
-        // l5.removeFirst();
-        // System.out.println(l5);
-        // l5.removeLast();
-        // System.out.println(l5);
+        l5.removeFirst();
+        System.out.println(l5);
+        l5.removeLast();
+        System.out.println(l5);
 
         System.out.println(l5.poll());//same as removefirst
         System.out.println(l5);

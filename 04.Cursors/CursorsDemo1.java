@@ -14,11 +14,9 @@ public class CursorsDemo1 {
         Iterator i=names.iterator();//returns Iterator
 
         // single directional cursor(has next())
-        while(i.hasNext()){
-            
+        while(i.hasNext()){        
             System.out.println(i.next());
             // i.remove();//remove all Object after printing using i.next()
-            
             // if(i.next().equals(5)){
             //     i.remove();
             // }
